@@ -1,0 +1,120 @@
+/* 
+Program name: styles.css
+Author: Jay You
+Date created: 2/7/2025
+Date last edited: 2/9/2025
+Version: 2.4
+Description: Styles for Patient Registration Form
+*/
+
+/* Import Google Fonts for variation */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Lora:wght@600&display=swap');
+
+/* General Page Styling */
+body {
+    font-family: "Lora", serif; /* Changed to Lora for body text */
+    background: url('mis3371-homework1-diagram.png') no-repeat center top;
+    background-size: contain;
+    background-attachment: fixed;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+/* Logo Styling */
+#banner img {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+/* Header Title Font - Changed for mixed font usage */
+.header-title {
+    font-family: "Roboto", sans-serif; /* Roboto for header title */
+    font-weight: bold;
+}
+
+/* Form Styling */
+#patient-form {
+    width: 600px;
+    margin: 100px auto 50px auto; /* Adjusted margin to add space */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    position: relative;
+}
+
+/* Table Layout Fix */
+table {
+    width: 100%;
+    border-spacing: 10px;
+}
+
+td {
+    padding: 8px;
+    vertical-align: middle;
+}
+
+/* Input Fields Styling */
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #5dade2;
+    border-radius: 4px;
+    background-color: #f0f8ff;
+    font-family: "Lora", serif; /* Input fields using Lora */
+}
+
+/* Adjust Checkboxes and Radio Buttons to Align with Text */
+input[type="checkbox"], input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+    vertical-align: baseline; /* Adjust alignment */
+    transform: translateY(2px); /* Moves checkboxes/radio buttons slightly down */
+}
+
+label {
+    vertical-align: middle;
+}
+
+/* Wider State Dropdown */
+#state {
+    width: 100%;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif; /* Roboto for buttons */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
